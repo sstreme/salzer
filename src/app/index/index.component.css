@@ -1,0 +1,50 @@
+.logo{
+    background-color: rgba(32, 55, 82, 0.9);
+    width: 100%;
+}
+.img-header{
+    height: 100vh;
+}
+.fecha{
+    top: 60%;
+    left: 5%;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+}
+.metas{
+    top:40%;
+    right: 5%;
+    position: absolute;
+    color: white;
+    border: 5px solid white;
+    font-size: 3rem;
+    width: 40%;
+}
+.mensaje{
+    top: 80%;
+    left: 5%;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    width: 90%;
+}
+.frase{
+    position: relative;
+}
+.frase #l1{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: white;
+}
+.frase #l2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+}
+.concentrate{
+    background-color: #0f1d4a;
+    color: white;
+}
