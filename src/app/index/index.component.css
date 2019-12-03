@@ -1,50 +1,179 @@
-.logo{
-    background-color: rgba(32, 55, 82, 0.9);
+.logo {
+    background-color: rgba(50, 82, 119, 0.3);
     width: 100%;
 }
-.img-header{
+
+.img-header {
     height: 100vh;
 }
-.fecha{
-    top: 60%;
-    left: 5%;
+
+.fecha {
+    top: 45%;
+    left: 32%;
     position: absolute;
     color: white;
     font-size: 3rem;
 }
-.metas{
-    top:40%;
+
+.fecha1 {
+    top: 45%;
+    left: 2%;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+}
+
+.fecha2 {
+    top: 45%;
+    left: 86.5%;
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+}
+
+.lf1 {
+    top: 47%;
+    left: 10%;
+    position: absolute;
+    border: 3px solid white;
+    width: 20%;
+}
+
+.lf2 {
+    top: 47%;
+    left: 63.5%;
+    position: absolute;
+    border: 3px solid white;
+    width: 21%;
+}
+
+.metas {
+    top: 60%;
     right: 5%;
     position: absolute;
     color: white;
     border: 5px solid white;
     font-size: 3rem;
-    width: 40%;
+    width: 25%;
 }
-.mensaje{
-    top: 80%;
+
+.mensaje {
+    top: 85%;
     left: 5%;
     position: absolute;
     color: white;
     font-size: 3rem;
     width: 90%;
 }
-.frase{
+
+.frase {
     position: relative;
 }
-.frase #l1{
+
+.frase #l1 {
     position: absolute;
     top: 40%;
     width: 100%;
     color: white;
 }
-.frase #l2{
+
+.frase #l2 {
     position: absolute;
     top: 50%;
     width: 100%;
     color: white;
 }
-.concentrate{
+
+.concentrate {
     background-color: #0f1d4a;
     color: white;
+}
+
+* {
+    font-family: 'MinionCondensed', sans-serif;
+}
+
+.fb2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.fb4 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.aseguradora {
+    width: 100%;
+}
+
+.f15 {
+    font-size: 1.5rem;
+}
+
+.contacto {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .img-header {
+        height: 60vh;
+    }
+    .fecha {
+        top: 35%;
+        left: 30%;
+        font-size: 1.5rem;
+    }
+    .fecha1 {
+        top: 35%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+    .fecha2 {
+        top: 35%;
+        left: 86.5%;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .lf1 {
+        top: 35%;
+        left: 11%;
+        width: 17%;
+        border: 2px solid white;
+    }
+    .lf2 {
+        top: 35%;
+        left: 71%;
+        width: 14%;
+        border: 2px solid white;
+    }
+    .metas {
+        top: 35%;
+        right: 5%;
+        font-size: 2rem;
+    }
+    .mensaje {
+        top: 45%;
+        left: 5%;
+        font-size: 2rem;
+    }
+    .fb2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .fb4 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .aseguradora {
+        width: 50%;
+    }
+    .contacto {
+        width: 30px;
+        height: 30px;
+    }
+    .f15 {
+        font-size: 1.5rem;
+    }
 }
